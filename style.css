@@ -95,7 +95,6 @@
     }
 }
 
-
 /* Landing Image Section */
 .Landing_img {
     background-image: url('Landing_Image.png'); /* Replace with your image */
@@ -109,6 +108,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 .Landing_img::before {
     content: "";
@@ -157,6 +157,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+  
 }
 
 .file-upload-label {
@@ -169,6 +170,11 @@
     cursor: pointer;
     width: 250px; /* Match input width */
     transition: border-color 0.3s ease;
+    width: 100%; /* Adjust based on your layout */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
 }
 
 /* Change border color on hover */
@@ -443,6 +449,5 @@ button:hover {
         font-size: 0.9em;
     }
 }
-
 
 
