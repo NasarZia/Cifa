@@ -118,4 +118,3 @@ function submitForm() {
 
 // Assuming you are using a button to trigger this function
 document.getElementById('submitButton').addEventListener('click', submitForm);
-
